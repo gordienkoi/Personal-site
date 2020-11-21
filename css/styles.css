@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Literata', serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #EAF6F6;
+  border-width: 7px;
+  margin: 35px auto 35px auto;
+  width: 5%;
+
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Arima Madurai', cursive;
+  margin: 50px auto 0 auto;
+  font-size: 5.625rem;
+  line-height: normal;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif cursive;
+}
+
+.top-container {
+  background-color: #bce6eb;
+  position: relative;
+  padding-top: 100px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 3;
+}
+
+.web {
+  text-decoration: underline;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.soft-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.hard-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  margin: 100px auto 100px auto;
+}
+.btn {
+  background: #9ad3bc;
+  background-image: -webkit-linear-gradient(top, #00F5FF, #0060FF);
+  background-image: -moz-linear-gradient(top, #00F5FF, #0060FF);
+  background-image: -ms-linear-gradient(top, #00F5FF, #0060FF);
+  background-image: -o-linear-gradient(top, #00F5FF, #0060FF);
+  background-image: -webkit-gradient(to bottom, #00F5FF, #0060FF);
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #9ad3bc;
+  font-family: 'Literata', serif;
+  font-size: 15px;
+  font-weight:100;
+  padding: 5px;
+  text-shadow: 0 0 4px #000000;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.bottom-container {
+  background-color: #9ad3bc;
+  font-family: 'Literata', serif;
+}
+
+.footer-link {
+  margin: auto 20px auto 20px;
+  color: #92817a;
+}
+
+.end {
+  margin: 0;
+  font-size: 0.7em;
+}
