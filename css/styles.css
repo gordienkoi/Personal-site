@@ -39,6 +39,16 @@ h3 {
   padding-top: 100px;
 }
 
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #9ad3bc;
+  font-family: 'Literata', serif;
+  padding: 50px 0 20px;
+}
+
 .skill-row {
   width: 50%;
   margin: 100px auto 100px auto;
@@ -58,7 +68,7 @@ h3 {
 
 .bottom-cloud {
   position: absolute;
-  left: 300px;
+  left: 250px;
   bottom: 300px;
 }
 
@@ -75,6 +85,7 @@ h3 {
 }
 
 .contact-me {
+  width: 40%;
   margin: 100px auto 100px auto;
 }
 
@@ -100,24 +111,32 @@ h3 {
   text-align: center;
 }
 
-.bottom-container {
-  background-color: #9ad3bc;
-  font-family: 'Literata', serif;
-}
-
 .footer-link {
   margin: auto 20px auto 20px;
   color: #92817a;
 }
 
+a:hover {
+  color: #EAF6F6;
+}
+
 .end {
-  margin: 0;
-  font-size: 0.7em;
+  font-size: 0.8em;
+  color:  #EAF6F6;
+  padding: 10px 0;
 }
 
 .welcome {
   width: 30%;
-  margin: 50px auto 50px auto;
+  margin: auto;
   text-align: left;
+}
+
+p {
   line-height: 2;
+}
+
+.contact-message {
+  width: 50%;
+  margin: 40px auto 60px;
 }
